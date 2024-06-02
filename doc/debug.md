@@ -57,13 +57,14 @@ return _M
     debug:stop_debug()
 ```
 
-6. 本地idea安装插件EmmyLua
-7. idea添加debug配置，选择Emmy Debugger(New), Connection选项选择 “Tcp(Debugger connect IDE)”
+7. 本地idea安装插件EmmyLua
+
+8. idea添加debug配置，选择Emmy Debugger(New), Connection选项选择 “Tcp(Debugger connect IDE)”
 ![img.png](../image/img.png)
 
-8. idea启动调试配置，在需要调试的接口对应代码添加断点
+9. idea启动调试配置，在需要调试的接口对应代码添加断点
 
-9. docker-compose启动容器，本地访问容器服务
+10. docker-compose启动容器，本地访问容器服务
 
-10. 请求将attach到idea中，即可进行本地断点调试
+11. 请求将attach到idea中，即可进行本地断点调试
 ![img_1.png](../image/img_1.png)
