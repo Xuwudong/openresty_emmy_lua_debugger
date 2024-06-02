@@ -1,7 +1,8 @@
 ## an openresty with emmy lua debugger
-> this is a docker image for openresty with emmy lua debugger,
-> use this can debug lua code on docker container in goland,
-> please read this [debug doc](./doc/debug.md) for more detail
+
+> This Docker image includes OpenResty with the Emmy Lua Debugger. 
+> Using this setup, you can debug Lua code within a Docker container using GoLand. 
+> For more details, please refer to the [debug documentation](./doc/debug.md)
 
 ### quickstart 
 1. install docker on your machine
