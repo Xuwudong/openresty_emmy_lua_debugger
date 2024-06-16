@@ -38,7 +38,7 @@ RUN curl https://codeload.github.com/EmmyLua/EmmyLuaDebugger/tar.gz/refs/tags/1.
             cmake -DCMAKE_BUILD_TYPE=Release ../ && \
             make install && \
             mkdir -p /usr/local/emmy && \
-#            cp install/bin/emmy_core.so /usr/local/emmy/ && \
+            cp /usr/local/bin/emmy_core.so /usr/local/emmy/ && \
         cd .. && \
     cd .. && \
     rm -rf EmmyLuaDebugger-1.8.0 EmmyLuaDebugger-1.8.0.tar.gz
